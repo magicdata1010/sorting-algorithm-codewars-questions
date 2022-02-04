@@ -1,1 +1,1 @@
-# sorting-algorithm-codewars-questions
+# sorting-algorithm-codewars-solution
