@@ -14,6 +14,9 @@ def move_zeros(array):
             array[r],array[l]=array[l],array[r]
             l=l+1
     return array
+#solution 2
+def move_zeros(array):
+    return sorted(array, key=lambda x: x==0 and type(x) is not bool)
 
 
 
